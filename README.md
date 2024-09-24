@@ -1,6 +1,10 @@
 We made an autonomous Nerf turret capable of heat signature detection and dynamic targeting, utilizing the PSoC™ 6 BLE Prototyping Kit. 
 We made a custom PCB in Altium Designer with servo/stepper motors for movement and a thermal camera for target detection.
 
+![PCB](https://github.com/user-attachments/assets/989b97c0-6140-4f6d-bed3-54b5536a62f5)
+![Sentry](https://github.com/user-attachments/assets/89aedcfd-02bc-4519-b17b-583fe5ea85ab)
+
+Schematics:
 ![PWM_I2C](https://github.com/user-attachments/assets/65c45df9-07dd-4279-af98-c2f64804d427)
 ![PCB](https://github.com/user-attachments/assets/6ad85320-bbce-4aed-acac-60f5316a057b)
 ![MCU](https://github.com/user-attachments/assets/6fab850b-93f1-457a-b49a-561769d98285)
