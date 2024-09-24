@@ -1,0 +1,101 @@
+# Created by Ultra Librarian Gold 8.3.307 Copyright © 1999-2021
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "SOP-8L_DIO")
+Pad (Name "1") (Location -106.2992, 75) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 61.02362061, 23.62204933) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location -106.2992, 25) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 61.02362061, 23.62204933) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "3") (Location -106.2992, -25) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 61.02362061, 23.62204933) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "4") (Location -106.2992, -75) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 61.02362061, 23.62204933) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "5") (Location 106.2992, -75) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 61.02362061, 23.62204933) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "6") (Location 106.2992, -25) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 61.02362061, 23.62204933) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "7") (Location 106.2992, 25) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 61.02362061, 23.62204933) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "8") (Location 106.2992, 75) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 61.02362061, 23.62204933) (Shape Rounded) (Layer Top)
+EndPad
+Line (Width 6) (Start -146.81100464, -96.81102753) (End -146.81100464, 96.81102753) (Layer Mechanical15) 
+Line (Width 6) (Start -146.81100464, 96.81102753) (End -87.75589752, 96.81102753) (Layer Mechanical15) 
+Line (Width 6) (Start 146.81100464, 96.81102753) (End 87.75589752, 96.81102753) (Layer Mechanical15) 
+Line (Width 6) (Start 146.81100464, 96.81102753) (End 146.81100464, -96.81102753) (Layer Mechanical15) 
+Line (Width 6) (Start 146.81100464, -96.81102753) (End 87.75589752, -96.81102753) (Layer Mechanical15) 
+Line (Width 6) (Start -146.81100464, -96.81102753) (End -87.75589752, -96.81102753) (Layer Mechanical15) 
+Line (Width 6) (Start -87.75589752, 96.81102753) (End -87.75589752, 107.44094849) (Layer Mechanical15) 
+Line (Width 6) (Start -87.75589752, 107.44094849) (End 87.75589752, 107.44094849) (Layer Mechanical15) 
+Line (Width 6) (Start 87.75589752, 107.44094849) (End 87.75589752, 96.81102753) (Layer Mechanical15) 
+Line (Width 6) (Start 87.75589752, -96.81102753) (End 87.75589752, -107.44094849) (Layer Mechanical15) 
+Line (Width 6) (Start 87.75589752, -107.44094849) (End -87.75589752, -107.44094849) (Layer Mechanical15) 
+Line (Width 6) (Start -87.75589752, -107.44094849) (End -87.75589752, -96.81102753) (Layer Mechanical15) 
+Polygon (PointCount 12) (Layer Mechanical15) 
+Point (-146.81100464, -96.81102753)
+Point (-146.81100464, 96.81102753)
+Point (-87.75589752, 96.81102753)
+Point (-87.75589752, 107.44094849)
+Point (87.75589752, 107.44094849)
+Point (87.75589752, 96.81102753)
+Point (146.81100464, 96.81102753)
+Point (146.81100464, -96.81102753)
+Point (87.75589752, -96.81102753)
+Point (87.75589752, -107.44094849)
+Point (-87.75589752, -107.44094849)
+Point (-87.75589752, -96.81102753)
+EndPolygon
+Polygon (PointCount 4) (Layer Mechanical5) 
+Point (-144.31100464, -104.94094849)
+Point (-144.31100464, 104.94094849)
+Point (144.31100464, 104.94094849)
+Point (144.31100464, -104.94094849)
+EndPolygon
+Line (Width 6) (Start 82.75589752, 0.56418204) (End 82.75589752, 50.56418204) (Layer TopOverlay) 
+Line (Width 6) (Start -82.75589752, -102.44094849) (End 82.75589752, -102.44094849) (Layer TopOverlay) 
+Line (Width 6) (Start 82.75589752, -49.43581796) (End 82.75589752, 0.56418204) (Layer TopOverlay) 
+Line (Width 6) (Start 82.75589752, 102.44094849) (End -82.75589752, 102.44094849) (Layer TopOverlay) 
+Line (Width 1) (Start -77.75589752, -97.44094849) (End 77.75589752, -97.44094849) (Layer Mechanical13) 
+Line (Width 1) (Start 77.75589752, -97.44094849) (End 77.75589752, 97.44094849) (Layer Mechanical13) 
+Line (Width 1) (Start 77.75589752, 97.44094849) (End -77.75589752, 97.44094849) (Layer Mechanical13) 
+Line (Width 1) (Start -77.75589752, 97.44094849) (End -77.75589752, -97.44094849) (Layer Mechanical13) 
+Arc (Width 0) (Radius 0) (Location -67.75589752, 75) (StartAngle 0) (EndAngle 360) (Layer Mechanical13) 
+Arc (Width 0) (Radius 12) (Location 0, 97.44094849) (StartAngle 180) (EndAngle 360) (Layer Mechanical13) 
+Step (Name SOP-8L_DIO.step)
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "AP1509-33SG-13") (PartCount 1) (DesPrefix "U?")
+Pin (Location 300, 0) (Rotation 180) (PinType Input) (Length 300) (Width 0) (Designator Visible "1") (Name Visible "VIN") (PinSwap 0) (PartSwap 0) (PinSeq 1) (Part 1)
+Pin (Location 300, -100) (Rotation 180) (PinType Output) (Length 300) (Width 0) (Designator Visible "2") (Name Visible "OUTPUT") (PinSwap 0) (PartSwap 0) (PinSeq 2) (Part 1)
+Pin (Location 300, -200) (Rotation 180) (PinType Output) (Length 300) (Width 0) (Designator Visible "3") (Name Visible "FB") (PinSwap 0) (PartSwap 0) (PinSeq 3) (Part 1)
+Pin (Location 300, -300) (Rotation 180) (PinType Passive) (Length 300) (Width 0) (Designator Visible "4") (Name Visible "SD") (PinSwap 0) (PartSwap 0) (PinSeq 4) (Part 1)
+Pin (Location 2100, -300) (Rotation 0) (PinType Power) (Length 300) (Width 0) (Designator Visible "5") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 5) (Part 1)
+Pin (Location 2100, -200) (Rotation 0) (PinType Power) (Length 300) (Width 0) (Designator Visible "6") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 6) (Part 1)
+Pin (Location 2100, -100) (Rotation 0) (PinType Power) (Length 300) (Width 0) (Designator Visible "7") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 7) (Part 1)
+Pin (Location 2100, 0) (Rotation 0) (PinType Power) (Length 300) (Width 0) (Designator Visible "8") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 8) (Part 1)
+Rectangle (Width 5) (Start 300, -500) (End 2100, 200) (Part 1)
+Parameter (Name "Copyright") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Copyright (C) 2022 Ultra Librarian. All rights reserved.") (Part 1)
+Parameter (Name "Mfr_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Diodes Inc") (Part 1)
+Parameter (Name "Manufacturer_Part_Number") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "AP1509-33SG-13") (Part 1)
+Parameter (Name "Digi-Key_Part_Number_1") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "AP1509-33SGDICT-ND") (Part 1)
+Parameter (Name "Digi-Key_Part_Number_2") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "AP1509-33SGDIDKR-ND") (Part 1)
+Parameter (Name "Digi-Key_Part_Number_3") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "AP1509-33SGDITR-ND") (Part 1)
+Parameter (Name "RefDes") (Location 1200, 400) (Height 82) (Rotation 0) (Justification Center) (Value "RefDes") (Part 1)
+Parameter (Name "Type") (Location 1200, 300) (Height 82) (Rotation 0) (Justification Center) (Value "DEV") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Comment (Value "AP1509-33SG-13") (Part 1)
+Footprint (Name "SOP-8L_DIO")
+EndComponent
+EndComponents
